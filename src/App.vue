@@ -26,6 +26,7 @@ watch(isPercent, (newUnit) => {
   }
 });
 
+
 watch(internalValue, (newValue) => {
   if (newValue < minValue.value) {
     internalValue.value = minValue.value;
